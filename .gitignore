@@ -1,0 +1,51 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local databases
+*.db
+*.sqlite3
+*.sqlite
+
+# Node.js dependencies and build artifacts
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# IDE and editor settings
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Local QA artifacts
+qa/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
